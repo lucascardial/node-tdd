@@ -1,0 +1,15 @@
+{
+  "name": "praticletdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test | tap-spec"
+  },
+  "author": "Lucas Cardial",
+  "license": "ISC",
+  "dependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2"
+  }
+}
