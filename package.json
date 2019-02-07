@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test | tap-spec"
+    "start": "node index",
+    "test": "node ./tests/* | tap-spec"
   },
   "author": "Lucas Cardial",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "supertest": "^3.4.2",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.2"
   }

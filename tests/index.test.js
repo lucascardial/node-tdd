@@ -1,5 +1,5 @@
 const test = require('tape')
-const index = require('./index')
+const index = require('../index')
 
 test('Aplicar Desconto', (test) => 
 {
